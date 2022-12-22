@@ -11,15 +11,15 @@ on:
         description: 'MANIFEST_BRANCH'
         required: true
         default: 'twrp-12.1'
-      DEVICE_TREE_URL:
+      DEVICE_TREE_URL: https://github.com/willzyx-hub/twrp_device_xiaomi_camellia_12.0
         description: 'DEVICE_TREE_URL'
         required: true
         default: 'https://github.com/TeamWin/android_device_asus_I003D'
-      DEVICE_TREE_BRANCH:
+      DEVICE_TREE_BRANCH: android-12.0
         description: 'DEVICE_TREE_BRANCH'
         required: true
         default: 'android-12.1'
-      DEVICE_PATH:
+      DEVICE_PATH: device/xiaomi/camellia
         description: 'DEVICE_PATH'
         required: true
         default: 'device/asus/I003D'
@@ -29,15 +29,15 @@ on:
       COMMON_PATH:
         description: 'COMMON_PATH (if no common tree, leave blank)'
         required: false
-      DEVICE_NAME:
+      DEVICE_NAME: camellia
         description: 'DEVICE_NAME'
         required: true
         default: 'I003D'
-      MAKEFILE_NAME:
+      MAKEFILE_NAME: omni_camellia
         description: 'MAKEFILE_NAME'
         required: true
         default: 'twrp_I003D'
-      BUILD_TARGET:
+      BUILD_TARGET: bootimage
         description: 'BUILD_TARGET'
         required: true
         default: 'recovery'
