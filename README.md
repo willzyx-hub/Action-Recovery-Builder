@@ -111,3 +111,8 @@ Can be downloaded at [Release](../../releases)
 #### TeamWin Recovery Project: https://github.com/minimal-manifest-twrp
 #### OrangeFox Recovery Project: https://gitlab.com/OrangeFox/Manifest.git
 #### SKYHAWK Recovery Project: https://github.com/SHRP/platform_manifest_twrp_omni.git
+
+Script used to compile camellia twrp 
+```
+IMPORTANT : DO NOT DOWNLOAD ANYTHING FROM THE RELEASE BECAUSE THIS TWRP ISN'T FINISHED YET
+```
